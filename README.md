@@ -48,12 +48,7 @@ Place the source code in your webserver, and install composer dependencies
 2. Install dependencies
    ```
    [user@server ensemblechallenge] php composer.phar install
-   ```
-
-At this point the application should be ready to use.
-
-### Swagger docs
-The .yaml file with the api documentation, can be found in the folder **apidocs/**. The file can be visualised on swagger online editor https://editor.swagger.io. Also swagger can be downloaded (https://github.com/swagger-api/swagger-ui) and installed in the folder **apidocs/**. Simply get the content of the **/dist** folder sitting on swagger and place it in the folder **apidocs/**
+```
 
 ### .htaccess configuration
 An .htaccess file has got to be placed in the root of the project with the following content:
@@ -64,7 +59,12 @@ An .htaccess file has got to be placed in the root of the project with the follo
    RewriteCond %{REQUEST_FILENAME} !-d
    RewriteRule . index.php [QSA,L]
    ```
-This is to allow the index to be rewritten for specific routing (i.e. /orders)
+This is to allow the index to be rewritten for specific routing (i.e. /orders).
+
+At this point the application should be ready to be used.
+
+### Swagger docs
+The .yaml file with the api documentation, can be found in the folder **apidocs/**. The file can be visualised on swagger online editor https://editor.swagger.io. Also swagger can be downloaded (https://github.com/swagger-api/swagger-ui) and installed in the folder **apidocs/**. Simply get the content of the **/dist** folder sitting on swagger and place it in the folder **apidocs/**
 
 ### Items to improve
 
