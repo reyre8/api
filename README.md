@@ -73,3 +73,4 @@ This is to allow the index to be rewritten for specific routing (i.e. /orders)
 - Validation to verify if customer exists (based on Email), so the same user is not created more than once.
 - Implement unit test module.
 - Implement financial operations.
+- GLOBALS["config"] variable has got to be replaced with proper $config var, and injected where needed.
