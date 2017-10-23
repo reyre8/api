@@ -1,0 +1,26 @@
+{
+    "name": "reyre8/ensemble-challenge",
+    "description": "Project challenge for Ensemble",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "MIT",
+    "authors": [{
+        "name": "Reynaldo Rojas",
+        "email": "reyre8@gmail.com",
+        "role": "Developer"
+    }],
+    "require": {
+        "nikic/fast-route": "1.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reyre8\\EnsembleChallenge\\": "src/"
+        },
+        "files": [
+            "src/config.php"
+        ]
+    }
+}
