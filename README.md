@@ -4,7 +4,7 @@
 ### Database
 
 Ensemble challenge requires a database installation (Mysql).
-The schema can be found in**src/Schema/Ensemble.sql**
+The schema can be found in **src/Schema/Ensemble.sql**
 
 The steps to install the database as follows:
 
@@ -12,7 +12,7 @@ The steps to install the database as follows:
    ```
    mysql> create database `ensemble`;
    ```
-2. In command line, load the ensemble schema**src/Schema/Ensemble.sql**
+2. In command line, load the ensemble schema **src/Schema/Ensemble.sql**
    ```
    [user@server Schema] mysql ensemble < Ensemble.sql
    ```    
