@@ -48,7 +48,7 @@ Place the source code in your webserver, and install composer dependencies
 2. Install dependencies
    ```
    [user@server ensemblechallenge] php composer.phar install
-```
+   ```
 
 ### .htaccess configuration
 An .htaccess file has got to be placed in the root of the project with the following content:
